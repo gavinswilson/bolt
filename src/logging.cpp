@@ -1,11 +1,25 @@
 #include <iostream>
+#include <string>
+#include <fstream>
 
 class logging
 {
     public:
-        //string directory
-        void write_to_main_log()
+        std::string logdir = "logs";
+        std::string filename;
+        std::string loginstance;
+
+        logging(std::string loginst)
         {
-            std::cout << "Writing to Log" << std::endl;
+            loginstance = loginst;
+            filename = logdir + "/" + loginstance + ".log";
+        }
+        
+        void write_to_main_log(std::string logtext)
+        {
+            std::ofstream out(filename, std::ios_base::app);
+            out << logtext;
+            out << std::endl;
+            out.close();
         }
 };

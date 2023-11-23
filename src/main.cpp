@@ -8,19 +8,14 @@ int exit_system()
     exit(0);
 }
 
-
-
-
 int main()
 {
+    logging mainlog("mainlog5");
+    mainlog.write_to_main_log("Starting System");
     
-    std::cout << "Starting System" << std::endl;
-
-
-    logging log;
-    //log.write_to_main_log();
     config conf;
     conf.load_config();
+    
 
     exit_system();
 }

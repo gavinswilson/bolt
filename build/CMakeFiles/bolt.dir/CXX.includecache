@@ -16,13 +16,19 @@ fstream
 algorithm
 -
 
-/home/gavinswilson/Code/bolt/src/logging.h
+/home/gavinswilson/Code/bolt/src/logging.cpp
+iostream
+-
+string
+-
+fstream
+-
 
 /home/gavinswilson/Code/bolt/src/main.cpp
 iostream
 -
-logging.h
-/home/gavinswilson/Code/bolt/src/logging.h
+logging.cpp
+/home/gavinswilson/Code/bolt/src/logging.cpp
 config.cpp
 /home/gavinswilson/Code/bolt/src/config.cpp
 

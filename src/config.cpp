@@ -30,6 +30,7 @@ class config
                     auto value = line.substr(delimiterPos + 1);
                     std::cout << name << " " << value << '\n';
                 }
+                cFile.close();
             }
             else 
             {
