@@ -10,4 +10,4 @@ class config
         {
             std::cout << "Loading Configuration" << std::endl;
         }
-}
+};
