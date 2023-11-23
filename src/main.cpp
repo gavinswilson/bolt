@@ -1,15 +1,26 @@
 #include <iostream>
-#include "logging.h"
-#include "config.h"
+#include "logging.cpp"
+#include "config.cpp"
 
-int main(){
+int exit_system()
+{
+    std::cout << "Exiting" << std::endl;
+    exit(0);
+}
+
+
+
+
+int main()
+{
     
     std::cout << "Starting System" << std::endl;
-d
+
 
     logging log;
     //log.write_to_main_log();
+    config conf;
+    conf.load_config();
 
-
-    return 0;
+    exit_system();
 }
