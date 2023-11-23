@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gavinswilson/Code/bolt/src/logging.h
+
+/home/gavinswilson/Code/bolt/src/main.cpp
+iostream
+-
+logging.h
+/home/gavinswilson/Code/bolt/src/logging.h
+
