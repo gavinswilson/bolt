@@ -1,0 +1,14 @@
+-setup area
+testname=solve
+-includes
+-criteria
+-test list
+loop=25
+{
+    @test_name=clean
+    remove_all_options_based_on_knowns
+    look_for_single_options
+    look_for_singles
+}
+
+-end

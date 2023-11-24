@@ -117,6 +117,21 @@ class sudoku
             return 0;
         }
 
+        int count_answers()
+        {
+            return 0;
+        }
+
+        int find_single_options()
+        {
+            return 0;
+        }
+
+        int find_singles()
+        {
+            return 0;
+        }
+
         int print_arrays(int choice)  // so many choices - needs to be to log file...
         {
             int x,y;
