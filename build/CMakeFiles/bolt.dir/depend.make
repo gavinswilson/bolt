@@ -4,4 +4,5 @@
 CMakeFiles/bolt.dir/src/main.cpp.o: ../src/config.cpp
 CMakeFiles/bolt.dir/src/main.cpp.o: ../src/logging.cpp
 CMakeFiles/bolt.dir/src/main.cpp.o: ../src/main.cpp
+CMakeFiles/bolt.dir/src/main.cpp.o: ../src/sudoku.cpp
 

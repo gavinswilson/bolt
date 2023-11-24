@@ -31,4 +31,12 @@ logging.cpp
 /home/gavinswilson/Code/bolt/src/logging.cpp
 config.cpp
 /home/gavinswilson/Code/bolt/src/config.cpp
+sudoku.cpp
+/home/gavinswilson/Code/bolt/src/sudoku.cpp
+
+/home/gavinswilson/Code/bolt/src/sudoku.cpp
+iostream
+-
+bitset
+-
 
